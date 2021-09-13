@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AppCenter.Crashes;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -30,6 +31,11 @@ namespace AppCenterTestApp
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void CrashButton_Click(object sender, RoutedEventArgs e)
+        {
+            Crashes.GenerateTestCrash();
         }
     }
 }

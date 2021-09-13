@@ -10,6 +10,7 @@
 
     <Grid>
         <TextBox x:Name="textBoxHeader" HorizontalAlignment="Center" Height="52" Text="Akvelon Take Home App Center Test Application" TextWrapping="Wrap" VerticalAlignment="Center" Width="708" TextChanged="TextBox_TextChanged" IsReadOnly="True" Background="#FFF06506" FontWeight="Bold" FontSize="30"/>
+        <Button x:Name="CrashButton" Content="Crash" HorizontalAlignment="Center" Margin="0,714,0,0" VerticalAlignment="Top" Height="71" Width="218" Click="CrashButton_Click" FontStyle="Normal" FontSize="20" Foreground="Red"/>
 
     </Grid>
 </Page>
